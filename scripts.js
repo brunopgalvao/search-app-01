@@ -1,6 +1,6 @@
 function search() {
     let input, filter, main, article, a, i, txtValue;
-    input = document.getElementById("myInput");
+    input = document.getElementById("search");
     filter = input.value.toUpperCase();
     main = document.querySelector("main");
     article = main.getElementsByTagName("article");
